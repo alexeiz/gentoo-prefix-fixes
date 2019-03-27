@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>alexeiz@gmail.com</email>
+    <name>Alexei Zakharov</name>
+  </maintainer>
+  <maintainer type="project">
+  <email>proxy-maint@gentoo.org</email>
+  <name>Proxy Maintainers</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">git-fat</remote-id>
+    <remote-id type="github">ciena-blueplanet/git-fat</remote-id>
+  </upstream>
+  <longdescription>
+	git-fat is a tool for managing large binary files in git repositories.
+  </longdescription>
+</pkgmetadata>
