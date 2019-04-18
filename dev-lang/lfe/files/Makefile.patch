@@ -10,7 +10,7 @@
  install: compile install-man
  	rm -Rf $(DESTEBINDIR)
  	$(INSTALL_DIR) $(DESTEBINDIR)
-@@ -127,7 +124,12 @@
+@@ -127,7 +124,13 @@
  	$(INSTALL_DATA) $(addprefix $(EBINDIR)/, $(EBINS)) $(DESTEBINDIR)
  	$(INSTALL_DATA) $(addprefix $(EBINDIR)/, $(LBINS)) $(DESTEBINDIR)
  	$(INSTALL_DIR) $(DESTBINDIR)
@@ -20,6 +20,7 @@
 +		$(BINDIR)/lfec \
 +		$(BINDIR)/lfedoc \
 +		$(BINDIR)/lfescript \
++		$(BINDIR)/lfeexec \
 +		$(DESTBINDIR)
  	ln -sf $(DESTBINDIR)/* $(PREFIX)/bin/
 

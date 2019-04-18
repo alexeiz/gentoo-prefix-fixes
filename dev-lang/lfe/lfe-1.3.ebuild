@@ -34,8 +34,9 @@ src_install() {
 	dobin bin/lfe
 	dobin bin/lfec
 	dobin bin/lfescript
+	dobin bin/lfeexec
 	dodir /usr/$(get_libdir)/erlang/lib/lfe/ebin/
 	dodir /usr/$(get_libdir)/erlang/lib/lfe/emacs/
-	cp -R "${S}/ebin" "${D}/usr/$(get_libdir)/erlang/lib/lfe/"
-	cp -R "${S}/emacs" "${D}/usr/$(get_libdir)/erlang/lib/lfe/"
+	cp -R "${S}/ebin" "${ED}/usr/$(get_libdir)/erlang/lib/lfe/"
+	cp -R "${S}/emacs" "${ED}/usr/$(get_libdir)/erlang/lib/lfe/"
 }
