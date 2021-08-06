@@ -4,7 +4,7 @@
 EAPI=5
 WX_GTK_VER="3.0"
 
-inherit autotools elisp-common eutils java-pkg-opt-2 multilib systemd versionator wxwidgets
+inherit autotools elisp-common eutils java-pkg-opt-2 multilib systemd versionator
 
 # NOTE: If you need symlinks for binaries please tell maintainers or
 # open up a bug to let it be created.
